@@ -51,7 +51,7 @@ html {
 }
 
 .header,
-.main-wrapper {
+.container {
   @include container();
 }
 
@@ -71,6 +71,7 @@ md-toolbar.md-default-theme {
 }
 
 .panel {
+  position: relative;
   margin-bottom: 30px;
   padding: 30px 20px;
   text-align: center;
@@ -78,9 +79,29 @@ md-toolbar.md-default-theme {
   background-size: cover;
   color: white;
   height: 300px;
+  z-index: 0;
 
   .panel-mask {
-    background-color: #fff;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .panel-bar {
+    position: absolute;
+    width: 100%;
+    background-color: rgba(255, 255, 255, .8);
+    height: 60px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
   }
 
   h1 {
@@ -104,6 +125,8 @@ md-toolbar.md-default-theme {
     }
   }
 }
+
+@import '../assets/sass/buttons';
 
 /**
  *  Do not remove the comment below. It's the markers used by gulp-inject to inject
