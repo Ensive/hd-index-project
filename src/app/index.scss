@@ -5,6 +5,8 @@
 // bower:scss
 // endbower
 
+@import '../assets/sass/mixins';
+
 @import url('http://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,700,700italic,400italic&subset=latin,cyrillic');
 
 @font-face {
@@ -45,8 +47,12 @@
 }
 
 html {
-  //font-family: 'Roboto Slab', serif;
   font-family: 'Roboto', sans-serif;
+}
+
+.header,
+.main-wrapper {
+  @include container();
 }
 
 [layout=row] {
@@ -64,17 +70,25 @@ md-toolbar.md-default-theme {
   background-color: black;
 }
 
-section.jumbotron {
+.panel {
   margin-bottom: 30px;
-  padding: 1px 30px;
-  background-color: #5aadbb;
+  padding: 30px 20px;
   text-align: center;
-
+  background: url('../assets/images/world-image.jpg') no-repeat center center;
+  background-size: cover;
   color: white;
+  height: 300px;
+
+  .panel-mask {
+    background-color: #fff;
+  }
 
   h1 {
-    font-size: 3em;
+    margin: 10px 0 0 0;
+    font-size: 2.5em;
   }
+
+  h1, p { text-shadow: 0 0 5px rgba(6, 6, 6, 0.63); }
 }
 
 .techs {
