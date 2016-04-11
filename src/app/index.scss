@@ -24,6 +24,7 @@
 
 html {
   font-family: 'Roboto', sans-serif;
+  min-height: 1000px;
 }
 
 .header,
@@ -59,6 +60,15 @@ md-toolbar.md-default-theme {
     }
   }
 }
+
+.hdi-index {
+  color: rgb(255,87,34);
+}
+
+.loading-icon {
+  animation-duration: 3s;
+}
+
 
 @import '../assets/sass/material-icons';
 @import '../assets/sass/material';
