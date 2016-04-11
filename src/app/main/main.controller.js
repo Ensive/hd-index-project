@@ -1,10 +1,12 @@
 export class MainController {
-  constructor($timeout, $q, toastr, $http, countryService) {
+  constructor($timeout, $q, toastr, $http, countryService, $location, $anchorScroll) {
     'ngInject';
 
     this.$http = $http;
     this.$q = $q;
     this.$timeout = $timeout;
+    this.$location = $location;
+    this.$anchorScroll = $anchorScroll;
     this.countryService = countryService;
 
     //this.awesomeThings = [];
@@ -106,6 +108,20 @@ export class MainController {
       return country.value.match(re);
     }
   }
+
+  gotoAnchor(x) {
+    var newHash = 'anchor-' + x;
+
+    if (this.$location.hash() !== newHash) {
+      // set the $location.hash to `newHash` and
+      // $anchorScroll will automatically scroll to it
+      this.$location.hash('anchor-' + x);
+    } else {
+      // call $anchorScroll() explicitly,
+      // since $location.hash hasn't changed
+      this.$anchorScroll();
+    }
+  };
 
   //activate($timeout, webDevTec) {
   //  this.getWebDevTec(webDevTec);

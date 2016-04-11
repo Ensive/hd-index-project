@@ -5,7 +5,7 @@
     <p class="panel-subtitle">
       Досліджуйте дані людського розвитку з усього світу за допомогою інструментів нижче. Дані, представлені тут, були використані при підготовці Доповіді про розвиток людини 2015 року, випущений 14 грудня 2015 року.
     </p>
-    <md-button class="md-raised md-warn panel-button hd-button">
+    <md-button ng-click="main.gotoAnchor('search')" class="md-raised md-warn panel-button hd-button">
       Запит
     </md-button>
     <!--<p>-->
@@ -17,7 +17,7 @@
     <div class="panel-mask"></div>
   </section>
 
-  <md-content layout-padding layout="column" class="form-container">
+  <md-content id="anchor-search" layout-padding layout="column" class="form-container">
     <form ng-submit="$event.preventDefault()" novalidate>
       <p>Введіть назву країни (англійською мовою):</p>
       <md-autocomplete
@@ -51,15 +51,45 @@
     </form>
   </md-content>
 
+  <!-- country info -->
   <md-content layout-padding class="info-container" ng-show="main.isReadyToCount">
-    <h3>Інформація про {{ main.searchText }}</h3>
+    <h3 class="section-title">Інформація про {{ main.searchText }}</h3>
+
+    <p class="hd-text">
+      Очікувана тривалість життя при народженні: <span class="hd-value">{{ main.LE }}</span>
+    </p>
+
+    <p class="hd-text">
+      Середня тривалість навчання (років): <span class="hd-value">{{ main.MYS }}</span>
+    </p>
+
+    <p class="hd-text">
+      Очікувана тривалість навчання (років): <span class="hd-value">{{ main.EYS }}</span>
+    </p>
+
+    <p class="hd-text">
+      Валовий національний доход (ВНД) на душу населення (2011): <span class="hd-value">{{ main.GNIpc }}</span>
+    </p>
 
     <md-button class="md-raised md-accent count-button"
                ng-show="main.isReadyToCount"
-               ng-disabled="!main.isReadyToCount"
+               ng-disabled="!main.isReadyToCount || main.isCounted"
                ng-click="main.getHDI()">
       Обчислити ІРЛП
     </md-button>
+
+    <!-- HDI info -->
+    <div ng-show="main.hdiIndex !== null && main.isLoading === false">
+      <h5 class="hdi-index-title">
+        Індекс розвитку людського потенціалу ({{ main.searchText }}):
+        <span class="hdi-index-text">{{ main.hdiIndex | number:3 }}</span>
+      </h5>
+    </div>
+
+    <!-- spinner -->
+    <div ng-show="main.isLoading">
+      <md-icon class="material-icons md-48 animated infinite rotateIn loading-icon">loop</md-icon>
+    </div>
   </md-content>
 
   <div class="techs" layout-align="center">
