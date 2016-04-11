@@ -1,0 +1,1172 @@
+{
+  "AFG": {
+    "rank":171,
+    "countryen":"Afghanistan",
+    "countryes":"Afganistán",
+    "countryfr":"Afghanistan"
+  },
+  "AGO": {
+    "rank":149,
+    "countryen":"Angola",
+    "countryes":"Angola",
+    "countryfr":"Angola"
+  },
+  "ALB": {
+    "rank":85,
+    "countryen":"Albania",
+    "countryes":"Albania",
+    "countryfr":"Albanie"
+  },
+  "AND": {
+    "rank":34,
+    "countryen":"Andorra",
+    "countryes":"Andorra",
+    "countryfr":"Andorre"
+  },
+  "ARE": {
+    "rank":41,
+    "countryen":"United Arab Emirates",
+    "countryes":"Emiratos Árabes Unidos",
+    "countryfr":"Émirats arabes unis"
+  },
+  "ARG": {
+    "rank":40,
+    "countryen":"Argentina",
+    "countryes":"Argentina",
+    "countryfr":"Argentine"
+  },
+  "ARM": {
+    "rank":85,
+    "countryen":"Armenia",
+    "countryes":"Armenia",
+    "countryfr":"Arménie"
+  },
+  "ATG": {
+    "rank":58,
+    "countryen":"Antigua and Barbuda",
+    "countryes":"Antigua y Barbuda",
+    "countryfr":"Antigua-et-Barbuda"
+  },
+  "AUS": {
+    "rank":2,
+    "countryen":"Australia",
+    "countryes":"Australia",
+    "countryfr":"Australie"
+  },
+  "AUT": {
+    "rank":23,
+    "countryen":"Austria",
+    "countryes":"Austria",
+    "countryfr":"Autriche"
+  },
+  "AZE": {
+    "rank":78,
+    "countryen":"Azerbaijan",
+    "countryes":"Azerbaiyán",
+    "countryfr":"Azerbaïdjan"
+  },
+  "BDI": {
+    "rank":184,
+    "countryen":"Burundi",
+    "countryes":"Burundi",
+    "countryfr":"Burundi"
+  },
+  "BEL": {
+    "rank":21,
+    "countryen":"Belgium",
+    "countryes":"Bélgica",
+    "countryfr":"Belgique"
+  },
+  "BEN": {
+    "rank":166,
+    "countryen":"Benin",
+    "countryes":"Benin",
+    "countryfr":"Bénin"
+  },
+  "BFA": {
+    "rank":183,
+    "countryen":"Burkina Faso",
+    "countryes":"Burkina Faso",
+    "countryfr":"Burkina Faso"
+  },
+  "BGD": {
+    "rank":142,
+    "countryen":"Bangladesh",
+    "countryes":"Bangladesh",
+    "countryfr":"Bangladesh"
+  },
+  "BGR": {
+    "rank":59,
+    "countryen":"Bulgaria",
+    "countryes":"Bulgaria",
+    "countryfr":"Bulgarie"
+  },
+  "BHR": {
+    "rank":45,
+    "countryen":"Bahrain",
+    "countryes":"Bahrein",
+    "countryfr":"Bahreïn"
+  },
+  "BHS": {
+    "rank":55,
+    "countryen":"Bahamas",
+    "countryes":"Bahamas",
+    "countryfr":"Bahamas"
+  },
+  "BIH": {
+    "rank":85,
+    "countryen":"Bosnia and Herzegovina",
+    "countryes":"Bosnia y Herzegovina",
+    "countryfr":"Bosnie et Herzégovine"
+  },
+  "BLR": {
+    "rank":50,
+    "countryen":"Belarus",
+    "countryes":"Belarús",
+    "countryfr":"Bélarusse"
+  },
+  "BLZ": {
+    "rank":101,
+    "countryen":"Belize",
+    "countryes":"Belice",
+    "countryfr":"Belize"
+  },
+  "BOL": {
+    "rank":119,
+    "countryen":"Bolivia (Plurinational State of)",
+    "countryes":"Bolivia",
+    "countryfr":"Bolivie"
+  },
+  "BRA": {
+    "rank":75,
+    "countryen":"Brazil",
+    "countryes":"Brasil",
+    "countryfr":"Brésil"
+  },
+  "BRB": {
+    "rank":57,
+    "countryen":"Barbados",
+    "countryes":"Barbados",
+    "countryfr":"Barbade"
+  },
+  "BRN": {
+    "rank":31,
+    "countryen":"Brunei Darussalam",
+    "countryes":"Brunei Darussalam",
+    "countryfr":"Brunei Darussalam"
+  },
+  "BTN": {
+    "rank":132,
+    "countryen":"Bhutan",
+    "countryes":"Bhután",
+    "countryfr":"Bhoutan"
+  },
+  "BWA": {
+    "rank":106,
+    "countryen":"Botswana",
+    "countryes":"Botswana",
+    "countryfr":"Botswana"
+  },
+  "CAF": {
+    "rank":187,
+    "countryen":"Central African Republic",
+    "countryes":"República Centroafricana",
+    "countryfr":"République centrafricaine"
+  },
+  "CAN": {
+    "rank":9,
+    "countryen":"Canada",
+    "countryes":"Canadá",
+    "countryfr":"Canada"
+  },
+  "CHE": {
+    "rank":3,
+    "countryen":"Switzerland",
+    "countryes":"Suiza",
+    "countryfr":"Suisse"
+  },
+  "CHL": {
+    "rank":42,
+    "countryen":"Chile",
+    "countryes":"Chile",
+    "countryfr":"Chili"
+  },
+  "CHN": {
+    "rank":90,
+    "countryen":"China",
+    "countryes":"China",
+    "countryfr":"Chine"
+  },
+  "CIV": {
+    "rank":172,
+    "countryen":"Côte d'Ivoire",
+    "countryes":"Côte d'Ivoire",
+    "countryfr":"Côte d'Ivoire"
+  },
+  "CMR": {
+    "rank":153,
+    "countryen":"Cameroon",
+    "countryes":"Camerún",
+    "countryfr":"Cameroun"
+  },
+  "COD": {
+    "rank":176,
+    "countryen":"Congo (Democratic Republic of the)",
+    "countryes":"República Democrática del",
+    "countryfr":"Congo, Rép. dém. du Congo"
+  },
+  "COG": {
+    "rank":136,
+    "countryen":"Congo",
+    "countryes":"Congo",
+    "countryfr":"Congo"
+  },
+  "COL": {
+    "rank":97,
+    "countryen":"Colombia",
+    "countryes":"Colombia",
+    "countryfr":"Colombie"
+  },
+  "COM": {
+    "rank":159,
+    "countryen":"Comoros",
+    "countryes":"Comoras",
+    "countryfr":"Comores"
+  },
+  "CPV": {
+    "rank":122,
+    "countryen":"Cabo Verde",
+    "countryes":"Cabo Verde",
+    "countryfr":"Cap-Vert"
+  },
+  "CRI": {
+    "rank":69,
+    "countryen":"Costa Rica",
+    "countryes":"Costa Rica",
+    "countryfr":"Costa Rica"
+  },
+  "CUB": {
+    "rank":67,
+    "countryen":"Cuba",
+    "countryes":"Cuba",
+    "countryfr":"Cuba"
+  },
+  "CYP": {
+    "rank":32,
+    "countryen":"Cyprus",
+    "countryes":"Chipre",
+    "countryfr":"Chypres"
+  },
+  "CZE": {
+    "rank":28,
+    "countryen":"Czech Republic",
+    "countryes":"República Checa",
+    "countryfr":"République tchèque"
+  },
+  "DEU": {
+    "rank":6,
+    "countryen":"Germany",
+    "countryes":"Alemania",
+    "countryfr":"Allemagne"
+  },
+  "DJI": {
+    "rank":168,
+    "countryen":"Djibouti",
+    "countryes":"Djibouti",
+    "countryfr":"Djibouti"
+  },
+  "DMA": {
+    "rank":94,
+    "countryen":"Dominica",
+    "countryes":"Dominica",
+    "countryfr":"Dominique"
+  },
+  "DNK": {
+    "rank":4,
+    "countryen":"Denmark",
+    "countryes":"Dinamarca",
+    "countryfr":"Danemark"
+  },
+  "DOM": {
+    "rank":101,
+    "countryen":"Dominican Republic",
+    "countryes":"República Dominicana",
+    "countryfr":"République dominicaine"
+  },
+  "DZA": {
+    "rank":83,
+    "countryen":"Algeria",
+    "countryes":"Algeria",
+    "countryfr":"Algérie"
+  },
+  "ECU": {
+    "rank":88,
+    "countryen":"Ecuador",
+    "countryes":"Ecuador",
+    "countryfr":"Équateur"
+  },
+  "EGY": {
+    "rank":108,
+    "countryen":"Egypt",
+    "countryes":"Egipto",
+    "countryfr":"Égypte"
+  },
+  "ERI": {
+    "rank":186,
+    "countryen":"Eritrea",
+    "countryes":"Eritrea",
+    "countryfr":"Érythrée"
+  },
+  "ESP": {
+    "rank":26,
+    "countryen":"Spain",
+    "countryes":"España",
+    "countryfr":"Espagne"
+  },
+  "EST": {
+    "rank":30,
+    "countryen":"Estonia",
+    "countryes":"Estonia",
+    "countryfr":"Estonie"
+  },
+  "ETH": {
+    "rank":174,
+    "countryen":"Ethiopia",
+    "countryes":"Etiopía",
+    "countryfr":"Éthiopie"
+  },
+  "FIN": {
+    "rank":24,
+    "countryen":"Finland",
+    "countryes":"Finlandia",
+    "countryfr":"Finlande"
+  },
+  "FJI": {
+    "rank":90,
+    "countryen":"Fiji",
+    "countryes":"Fiji",
+    "countryfr":"Fidji"
+  },
+  "FRA": {
+    "rank":22,
+    "countryen":"France",
+    "countryes":"Francia",
+    "countryfr":"France"
+  },
+  "FSM": {
+    "rank":123,
+    "countryen":"Micronesia (Federated States of)",
+    "countryes":"Micronesia, Estados Federados de",
+    "countryfr":"Micronésie, États féd. de"
+  },
+  "GAB": {
+    "rank":110,
+    "countryen":"Gabon",
+    "countryes":"Gabón",
+    "countryfr":"Gabon"
+  },
+  "GBR": {
+    "rank":14,
+    "countryen":"United Kingdom",
+    "countryes":"Reino Unido",
+    "countryfr":"Royaume-Uni"
+  },
+  "GEO": {
+    "rank":76,
+    "countryen":"Georgia",
+    "countryes":"Georgia",
+    "countryfr":"Géorgie"
+  },
+  "GHA": {
+    "rank":140,
+    "countryen":"Ghana",
+    "countryes":"Ghana",
+    "countryfr":"Ghana"
+  },
+  "GIN": {
+    "rank":182,
+    "countryen":"Guinea",
+    "countryes":"Guinea",
+    "countryfr":"Guinée"
+  },
+  "GMB": {
+    "rank":175,
+    "countryen":"Gambia",
+    "countryes":"Gambia",
+    "countryfr":"Gambie"
+  },
+  "GNB": {
+    "rank":178,
+    "countryen":"Guinea-Bissau",
+    "countryes":"Guinea-Bissau",
+    "countryfr":"Guinée Bissau"
+  },
+  "GNQ": {
+    "rank":138,
+    "countryen":"Equatorial Guinea",
+    "countryes":"Guinea Ecuatorial",
+    "countryfr":"Guinée équatoriale"
+  },
+  "GRC": {
+    "rank":29,
+    "countryen":"Greece",
+    "countryes":"Grecia",
+    "countryfr":"Grèce"
+  },
+  "GRD": {
+    "rank":79,
+    "countryen":"Grenada",
+    "countryes":"Granada",
+    "countryfr":"Grenade"
+  },
+  "GTM": {
+    "rank":128,
+    "countryen":"Guatemala",
+    "countryes":"Guatemala",
+    "countryfr":"Guatemala"
+  },
+  "GUY": {
+    "rank":124,
+    "countryen":"Guyana",
+    "countryes":"Guyana ",
+    "countryfr":"Guyana"
+  },
+  "HKG": {
+    "rank":12,
+    "countryen":"Hong Kong, China (SAR)",
+    "countryes":"Hong Kong, China (RAE)",
+    "countryfr":"Hong Kong, Chine (RAS)"
+  },
+  "HND": {
+    "rank":131,
+    "countryen":"Honduras",
+    "countryes":"Honduras",
+    "countryfr":"Honduras"
+  },
+  "HRV": {
+    "rank":47,
+    "countryen":"Croatia",
+    "countryes":"Croacia",
+    "countryfr":"Croatie"
+  },
+  "HTI": {
+    "rank":163,
+    "countryen":"Haiti",
+    "countryes":"Haití",
+    "countryfr":"Haïti"
+  },
+  "HUN": {
+    "rank":44,
+    "countryen":"Hungary",
+    "countryes":"Hungría",
+    "countryfr":"Hongrie"
+  },
+  "IDN": {
+    "rank":110,
+    "countryen":"Indonesia",
+    "countryes":"Indonesia",
+    "countryfr":"Indonésie"
+  },
+  "IND": {
+    "rank":130,
+    "countryen":"India",
+    "countryes":"India",
+    "countryfr":"Inde"
+  },
+  "IRL": {
+    "rank":6,
+    "countryen":"Ireland",
+    "countryes":"Irlanda",
+    "countryfr":"Irlande"
+  },
+  "IRN": {
+    "rank":69,
+    "countryen":"Iran (Islamic Republic of)",
+    "countryes":"República Islámica del",
+    "countryfr":"Iran, Rép. islamique d’Irán"
+  },
+  "IRQ": {
+    "rank":121,
+    "countryen":"Iraq",
+    "countryes":"Iraq",
+    "countryfr":"Iraq"
+  },
+  "ISL": {
+    "rank":16,
+    "countryen":"Iceland",
+    "countryes":"Islandia",
+    "countryfr":"Islande"
+  },
+  "ISR": {
+    "rank":18,
+    "countryen":"Israel",
+    "countryes":"Israel",
+    "countryfr":"Israël"
+  },
+  "ITA": {
+    "rank":27,
+    "countryen":"Italy",
+    "countryes":"Italia",
+    "countryfr":"Italie"
+  },
+  "JAM": {
+    "rank":99,
+    "countryen":"Jamaica",
+    "countryes":"Jamaica",
+    "countryfr":"Jamaïque"
+  },
+  "JOR": {
+    "rank":80,
+    "countryen":"Jordan",
+    "countryes":"Jordania",
+    "countryfr":"Jordanie"
+  },
+  "JPN": {
+    "rank":20,
+    "countryen":"Japan",
+    "countryes":"Japón",
+    "countryfr":"Japon"
+  },
+  "KAZ": {
+    "rank":56,
+    "countryen":"Kazakhstan",
+    "countryes":"Kazajstán",
+    "countryfr":"Kazakhstan"
+  },
+  "KEN": {
+    "rank":145,
+    "countryen":"Kenya",
+    "countryes":"Kenya",
+    "countryfr":"Kenya"
+  },
+  "KGZ": {
+    "rank":120,
+    "countryen":"Kyrgyzstan",
+    "countryes":"Kirguistán",
+    "countryfr":"Kirghizstan"
+  },
+  "KHM": {
+    "rank":143,
+    "countryen":"Cambodia",
+    "countryes":"Cambodia",
+    "countryfr":"Cambodge"
+  },
+  "KIR": {
+    "rank":137,
+    "countryen":"Kiribati",
+    "countryes":"Kiribati",
+    "countryfr":"Kiribati"
+  },
+  "KNA": {
+    "rank":77,
+    "countryen":"Saint Kitts and Nevis",
+    "countryes":"Saint Kitts y Nevis",
+    "countryfr":"Saint-Kitts-et-Nevis"
+  },
+  "KOR": {
+    "rank":17,
+    "countryen":"Korea (Republic of)",
+    "countryes":"Corea, Rep. de",
+    "countryfr":"Corée, Rép. de"
+  },
+  "KWT": {
+    "rank":48,
+    "countryen":"Kuwait",
+    "countryes":"Kuwait",
+    "countryfr":"Koweït"
+  },
+  "LAO": {
+    "rank":141,
+    "countryen":"Lao People's Democratic Republic",
+    "countryes":"Lao, República Democrática Popular",
+    "countryfr":"Lao, Rép. dém. pop."
+  },
+  "LBN": {
+    "rank":67,
+    "countryen":"Lebanon",
+    "countryes":"Líbano",
+    "countryfr":"Liban"
+  },
+  "LBR": {
+    "rank":177,
+    "countryen":"Liberia",
+    "countryes":"Liberia",
+    "countryfr":"Liberia"
+  },
+  "LBY": {
+    "rank":94,
+    "countryen":"Libya",
+    "countryes":"Libia",
+    "countryfr":"Libye"
+  },
+  "LCA": {
+    "rank":89,
+    "countryen":"Saint Lucia",
+    "countryes":"Santa Lucía",
+    "countryfr":"Sainte Lucie"
+  },
+  "LIE": {
+    "rank":13,
+    "countryen":"Liechtenstein",
+    "countryes":"Liechtenstein",
+    "countryfr":"Liechtenstein"
+  },
+  "LKA": {
+    "rank":73,
+    "countryen":"Sri Lanka",
+    "countryes":"Sri Lanka",
+    "countryfr":"Sri Lanka"
+  },
+  "LSO": {
+    "rank":161,
+    "countryen":"Lesotho",
+    "countryes":"Lesotho",
+    "countryfr":"Lesotho"
+  },
+  "LTU": {
+    "rank":37,
+    "countryen":"Lithuania",
+    "countryes":"Lituania",
+    "countryfr":"Lituanie"
+  },
+  "LUX": {
+    "rank":19,
+    "countryen":"Luxembourg",
+    "countryes":"Luxemburgo",
+    "countryfr":"Luxembourg"
+  },
+  "LVA": {
+    "rank":46,
+    "countryen":"Latvia",
+    "countryes":"Letonia",
+    "countryfr":"Lettonie"
+  },
+  "MAR": {
+    "rank":126,
+    "countryen":"Morocco",
+    "countryes":"Marruecos",
+    "countryfr":"Maroc"
+  },
+  "": {
+    "rank":null,
+    "countryen":"Monaco",
+    "countryes":"Mónaco",
+    "countryfr":"Monaco"
+  },
+  "MDA": {
+    "rank":107,
+    "countryen":"Moldova (Republic of)",
+    "countryes":"Moldova, Rep. de",
+    "countryfr":"Moldavie, Rép. de"
+  },
+  "MDG": {
+    "rank":154,
+    "countryen":"Madagascar",
+    "countryes":"Madagascar",
+    "countryfr":"Madagascar"
+  },
+  "MDV": {
+    "rank":104,
+    "countryen":"Maldives",
+    "countryes":"Maldivas",
+    "countryfr":"Maldives"
+  },
+  "MEX": {
+    "rank":74,
+    "countryen":"Mexico",
+    "countryes":"México",
+    "countryfr":"Mexique"
+  },
+  "": {
+    "rank":null,
+    "countryen":"Marshall Islands",
+    "countryes":"Islas Marshall",
+    "countryfr":"Îles Marshall"
+  },
+  "MKD": {
+    "rank":81,
+    "countryen":"The former Yugoslav Republic of Macedonia",
+    "countryes":"Macedonia (ERY)",
+    "countryfr":"Macédoine, ERY"
+  },
+  "MLI": {
+    "rank":179,
+    "countryen":"Mali",
+    "countryes":"Malí",
+    "countryfr":"Mali"
+  },
+  "MLT": {
+    "rank":37,
+    "countryen":"Malta",
+    "countryes":"Malta",
+    "countryfr":"Malte"
+  },
+  "MMR": {
+    "rank":148,
+    "countryen":"Myanmar",
+    "countryes":"Myanmar",
+    "countryfr":"Myanmar"
+  },
+  "MNE": {
+    "rank":49,
+    "countryen":"Montenegro",
+    "countryes":"Montenegro",
+    "countryfr":"Monténégro"
+  },
+  "MNG": {
+    "rank":90,
+    "countryen":"Mongolia",
+    "countryes":"Mongolia",
+    "countryfr":"Mongolie"
+  },
+  "MOZ": {
+    "rank":180,
+    "countryen":"Mozambique",
+    "countryes":"Mozambique",
+    "countryfr":"Mozambique"
+  },
+  "MRT": {
+    "rank":156,
+    "countryen":"Mauritania",
+    "countryes":"Mauritania",
+    "countryfr":"Mauritanie"
+  },
+  "MUS": {
+    "rank":63,
+    "countryen":"Mauritius",
+    "countryes":"Mauricio",
+    "countryfr":"Maurice"
+  },
+  "MWI": {
+    "rank":173,
+    "countryen":"Malawi",
+    "countryes":"Malawi",
+    "countryfr":"Malawi"
+  },
+  "MYS": {
+    "rank":62,
+    "countryen":"Malaysia",
+    "countryes":"Malasia",
+    "countryfr":"Malaisie"
+  },
+  "NAM": {
+    "rank":126,
+    "countryen":"Namibia",
+    "countryes":"Namibia",
+    "countryfr":"Namibie"
+  },
+  "NER": {
+    "rank":188,
+    "countryen":"Niger",
+    "countryes":"Níger",
+    "countryfr":"Niger"
+  },
+  "NGA": {
+    "rank":152,
+    "countryen":"Nigeria",
+    "countryes":"Nigeria",
+    "countryfr":"Nigeria"
+  },
+  "NIC": {
+    "rank":125,
+    "countryen":"Nicaragua",
+    "countryes":"Nicaragua",
+    "countryfr":"Nicaragua"
+  },
+  "NLD": {
+    "rank":5,
+    "countryen":"Netherlands",
+    "countryes":"Países Bajos",
+    "countryfr":"Pays-Bas"
+  },
+  "NOR": {
+    "rank":1,
+    "countryen":"Norway",
+    "countryes":"Noruega",
+    "countryfr":"Norvège"
+  },
+  "NPL": {
+    "rank":145,
+    "countryen":"Nepal",
+    "countryes":"Nepal",
+    "countryfr":"Népal"
+  },
+  "": {
+    "rank":null,
+    "countryen":"Nauru",
+    "countryes":"Nauru",
+    "countryfr":"Nauru"
+  },
+  "NZL": {
+    "rank":9,
+    "countryen":"New Zealand",
+    "countryes":"Nueva Zelandia",
+    "countryfr":"Nouvelle-Zélande"
+  },
+  "OMN": {
+    "rank":52,
+    "countryen":"Oman",
+    "countryes":"Omán",
+    "countryfr":"Oman"
+  },
+  "PAK": {
+    "rank":147,
+    "countryen":"Pakistan",
+    "countryes":"Pakistán",
+    "countryfr":"Pakistan"
+  },
+  "PAN": {
+    "rank":60,
+    "countryen":"Panama",
+    "countryes":"Panamá",
+    "countryfr":"Panama"
+  },
+  "PER": {
+    "rank":84,
+    "countryen":"Peru",
+    "countryes":"Perú",
+    "countryfr":"Pérou"
+  },
+  "PHL": {
+    "rank":115,
+    "countryen":"Philippines",
+    "countryes":"Filipinas",
+    "countryfr":"Philippines"
+  },
+  "PLW": {
+    "rank":60,
+    "countryen":"Palau",
+    "countryes":"Palau",
+    "countryfr":"Palau"
+  },
+  "PNG": {
+    "rank":158,
+    "countryen":"Papua New Guinea",
+    "countryes":"Papua Nueva Guinea",
+    "countryfr":"Papouasie-Nouvelle-Guinée"
+  },
+  "POL": {
+    "rank":36,
+    "countryen":"Poland",
+    "countryes":"Polonia",
+    "countryfr":"Pologne"
+  },
+  "": {
+    "rank":null,
+    "countryen":"Korea (Democratic People's Rep. of)",
+    "countryes":"Corea, Rep. Popular Democrática de",
+    "countryfr":"Corée, Rép. dém. de"
+  },
+  "PRT": {
+    "rank":43,
+    "countryen":"Portugal",
+    "countryes":"Portugal",
+    "countryfr":"Portugal"
+  },
+  "PRY": {
+    "rank":112,
+    "countryen":"Paraguay",
+    "countryes":"Paraguay",
+    "countryfr":"Paraguay"
+  },
+  "PSE": {
+    "rank":113,
+    "countryen":"Palestine, State of",
+    "countryes":"Estado de Palestina",
+    "countryfr":"Palestine (État de)"
+  },
+  "QAT": {
+    "rank":32,
+    "countryen":"Qatar",
+    "countryes":"Qatar",
+    "countryfr":"Qatar"
+  },
+  "ROU": {
+    "rank":52,
+    "countryen":"Romania",
+    "countryes":"Rumania",
+    "countryfr":"Roumanie"
+  },
+  "RUS": {
+    "rank":50,
+    "countryen":"Russian Federation",
+    "countryes":"Rusia, Federación de",
+    "countryfr":"Fédération de Russie"
+  },
+  "RWA": {
+    "rank":163,
+    "countryen":"Rwanda",
+    "countryes":"Rwanda",
+    "countryfr":"Rwanda"
+  },
+  "SAU": {
+    "rank":39,
+    "countryen":"Saudi Arabia",
+    "countryes":"Arabia Saudita",
+    "countryfr":"Arabie Saoudite"
+  },
+  "SDN": {
+    "rank":167,
+    "countryen":"Sudan",
+    "countryes":"Sudán",
+    "countryfr":"Soudan"
+  },
+  "SEN": {
+    "rank":170,
+    "countryen":"Senegal",
+    "countryes":"Senegal",
+    "countryfr":"Sénégal"
+  },
+  "SGP": {
+    "rank":11,
+    "countryen":"Singapore",
+    "countryes":"Singapur",
+    "countryfr":"Singapour"
+  },
+  "SLB": {
+    "rank":156,
+    "countryen":"Solomon Islands",
+    "countryes":"Islas Salomón",
+    "countryfr":"Îles Salomon"
+  },
+  "SLE": {
+    "rank":181,
+    "countryen":"Sierra Leone",
+    "countryes":"Sierra Leona",
+    "countryfr":"Sierra Leone"
+  },
+  "SLV": {
+    "rank":116,
+    "countryen":"El Salvador",
+    "countryes":"El Salvador",
+    "countryfr":"El Salvador"
+  },
+  "": {
+    "rank":null,
+    "countryen":"San Marino",
+    "countryes":"San Marino",
+    "countryfr":"Saint-Marin"
+  },
+  "": {
+    "rank":null,
+    "countryen":"Somalia",
+    "countryes":"Somalía",
+    "countryfr":"Somalie"
+  },
+  "SRB": {
+    "rank":66,
+    "countryen":"Serbia",
+    "countryes":"Serbia",
+    "countryfr":"Serbie"
+  },
+  "SSD": {
+    "rank":169,
+    "countryen":"South Sudan",
+    "countryes":null,
+    "countryfr":"Soudan du Sud"
+  },
+  "STP": {
+    "rank":143,
+    "countryen":"Sao Tome and Principe",
+    "countryes":"Santo Tomé y Príncipe",
+    "countryfr":"Sao Tomé-et-Principe"
+  },
+  "SUR": {
+    "rank":103,
+    "countryen":"Suriname",
+    "countryes":"Suriname",
+    "countryfr":"Suriname"
+  },
+  "SVK": {
+    "rank":35,
+    "countryen":"Slovakia",
+    "countryes":"Eslovaquia",
+    "countryfr":"Slovaquie"
+  },
+  "SVN": {
+    "rank":25,
+    "countryen":"Slovenia",
+    "countryes":"Eslovenia",
+    "countryfr":"Slovénie"
+  },
+  "SWE": {
+    "rank":14,
+    "countryen":"Sweden",
+    "countryes":"Suecia",
+    "countryfr":"Suède"
+  },
+  "SWZ": {
+    "rank":150,
+    "countryen":"Swaziland",
+    "countryes":"Swazilandia",
+    "countryfr":"Swaziland"
+  },
+  "SYC": {
+    "rank":64,
+    "countryen":"Seychelles",
+    "countryes":"Seychelles",
+    "countryfr":"Seychelles"
+  },
+  "SYR": {
+    "rank":134,
+    "countryen":"Syrian Arab Republic",
+    "countryes":"Siria, República Árabe",
+    "countryfr":"syrienne, Rép. arabe."
+  },
+  "TCD": {
+    "rank":185,
+    "countryen":"Chad",
+    "countryes":"Chad",
+    "countryfr":"Tchad"
+  },
+  "TGO": {
+    "rank":162,
+    "countryen":"Togo",
+    "countryes":"Togo",
+    "countryfr":"Togo"
+  },
+  "THA": {
+    "rank":93,
+    "countryen":"Thailand",
+    "countryes":"Tailandia",
+    "countryfr":"Thaïlande"
+  },
+  "TJK": {
+    "rank":129,
+    "countryen":"Tajikistan",
+    "countryes":"Tayikistán",
+    "countryfr":"Tadjikistan"
+  },
+  "TKM": {
+    "rank":109,
+    "countryen":"Turkmenistan",
+    "countryes":"Turkmenistán",
+    "countryfr":"Turkménistan"
+  },
+  "TLS": {
+    "rank":133,
+    "countryen":"Timor-Leste",
+    "countryes":"Timor-Leste",
+    "countryfr":"Timor-Leste"
+  },
+  "TON": {
+    "rank":100,
+    "countryen":"Tonga",
+    "countryes":"Tonga",
+    "countryfr":"Tonga"
+  },
+  "TTO": {
+    "rank":64,
+    "countryen":"Trinidad and Tobago",
+    "countryes":"Trinidad y Tobago",
+    "countryfr":"Trinidad-et-Tobago"
+  },
+  "TUN": {
+    "rank":96,
+    "countryen":"Tunisia",
+    "countryes":"Túnez",
+    "countryfr":"Tunisie"
+  },
+  "TUR": {
+    "rank":72,
+    "countryen":"Turkey",
+    "countryes":"Turquía",
+    "countryfr":"Turquie"
+  },
+  "": {
+    "rank":null,
+    "countryen":"Tuvalu",
+    "countryes":"Tuvalu",
+    "countryfr":"Tuvalu"
+  },
+  "TZA": {
+    "rank":151,
+    "countryen":"Tanzania (United Republic of)",
+    "countryes":"Tanzanía, República Unida de",
+    "countryfr":"Tanzanie, Rép.-Unie de"
+  },
+  "UGA": {
+    "rank":163,
+    "countryen":"Uganda",
+    "countryes":"Uganda",
+    "countryfr":"Ouganda"
+  },
+  "UKR": {
+    "rank":81,
+    "countryen":"Ukraine",
+    "countryes":"Ucrania",
+    "countryfr":"Ukraine"
+  },
+  "URY": {
+    "rank":52,
+    "countryen":"Uruguay",
+    "countryes":"Uruguay",
+    "countryfr":"Uruguay"
+  },
+  "USA": {
+    "rank":8,
+    "countryen":"United States",
+    "countryes":"Estados Unidos ",
+    "countryfr":"États-Unis"
+  },
+  "UZB": {
+    "rank":114,
+    "countryen":"Uzbekistan",
+    "countryes":"Uzbekistán",
+    "countryfr":"Ouzbékistan"
+  },
+  "VCT": {
+    "rank":97,
+    "countryen":"Saint Vincent and the Grenadines",
+    "countryes":"San Vicente y las Granadinas",
+    "countryfr":"Saint-Vincent-et-les Grenadines"
+  },
+  "VEN": {
+    "rank":71,
+    "countryen":"Venezuela (Bolivarian Republic of)",
+    "countryes":"Venezuela, República Bolivariana de",
+    "countryfr":"Venezuela, Rép. bol. du"
+  },
+  "VNM": {
+    "rank":116,
+    "countryen":"Viet Nam",
+    "countryes":"Viet Nam",
+    "countryfr":"Vietnam"
+  },
+  "VUT": {
+    "rank":134,
+    "countryen":"Vanuatu",
+    "countryes":"Vanuatu",
+    "countryfr":"Vanuatu"
+  },
+  "WSM": {
+    "rank":105,
+    "countryen":"Samoa",
+    "countryes":"Samoa (Occidental)",
+    "countryfr":"Samoa"
+  },
+  "YEM": {
+    "rank":160,
+    "countryen":"Yemen",
+    "countryes":"Yemen",
+    "countryfr":"Yémen"
+  },
+  "ZAF": {
+    "rank":116,
+    "countryen":"South Africa",
+    "countryes":"Sudáfrica",
+    "countryfr":"Afrique du Sud"
+  },
+  "ZMB": {
+    "rank":139,
+    "countryen":"Zambia",
+    "countryes":"Zambia",
+    "countryfr":"Zambie"
+  },
+  "ZWE": {
+    "rank":155,
+    "countryen":"Zimbabwe",
+    "countryes":"Zimbabwe",
+    "countryfr":"Zimbabwe"
+  }
+}
