@@ -2,3 +2,7 @@
 .md-autocomplete-suggestions-container li .highlight {
   color: rgb(255,87,34);
 }
+
+.md-virtual-repeat-container.md-autocomplete-suggestions-container {
+  z-index: 99;
+}

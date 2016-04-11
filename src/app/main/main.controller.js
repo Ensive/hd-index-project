@@ -121,7 +121,7 @@ export class MainController {
       // since $location.hash hasn't changed
       this.$anchorScroll();
     }
-  };
+  }
 
   //activate($timeout, webDevTec) {
   //  this.getWebDevTec(webDevTec);
