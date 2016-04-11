@@ -18,8 +18,8 @@
   </section>
 
   <md-content layout-padding layout="column" class="form-container">
-    <form ng-submit="$event.preventDefault()">
-      <p>Введіть назву або код країни (англійською мовою):</p>
+    <form ng-submit="$event.preventDefault()" novalidate>
+      <p>Введіть назву країни (англійською мовою):</p>
       <md-autocomplete
         md-selected-item="main.selectedItem"
         md-selected-item-change="main.loadCountryProfile(main.selectedItem)"
@@ -51,10 +51,15 @@
     </form>
   </md-content>
 
-  <md-content class="form-container">
-    <form ng-submit="$event.preventDefault()" novalidate>
+  <md-content layout-padding class="info-container" ng-show="main.isReadyToCount">
+    <h3>Інформація про {{ main.searchText }}</h3>
 
-    </form>
+    <md-button class="md-raised md-accent count-button"
+               ng-show="main.isReadyToCount"
+               ng-disabled="!main.isReadyToCount"
+               ng-click="main.getHDI()">
+      Обчислити ІРЛП
+    </md-button>
   </md-content>
 
   <div class="techs" layout-align="center">
