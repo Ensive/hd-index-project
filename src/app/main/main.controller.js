@@ -1,32 +1,78 @@
 export class MainController {
-  constructor ($timeout, webDevTec, toastr) {
+  constructor($timeout, $q, toastr, $http) {
     'ngInject';
 
-    this.awesomeThings = [];
-    this.classAnimation = '';
-    this.creationDate = 1460319508235;
+    this.$http = $http;
+    this.$q = $q;
+    this.$timeout = $timeout;
+
+    //this.awesomeThings = [];
+    //this.classAnimation = '';
+    //this.creationDate = 1460319508235;
     this.toastr = toastr;
 
-    this.activate($timeout, webDevTec);
+    //this.activate($timeout, webDevTec);
   }
 
-  activate($timeout, webDevTec) {
-    this.getWebDevTec(webDevTec);
-    $timeout(() => {
-      this.classAnimation = 'rubberBand';
-    }, 4000);
+  querySearch(query) {
+    return this.loadCountriesList()
+      .then((countries) => {
+        return this.$timeout(() => {
+          return query ? countries.filter(this.filterResults(query)) : countries;
+        }, Math.random() * 1000, false);
+      });
   }
 
-  getWebDevTec(webDevTec) {
-    this.awesomeThings = webDevTec.getTec();
+  loadCountriesList() {
+    var deferred = this.$q.defer();
 
-    angular.forEach(this.awesomeThings, (awesomeThing) => {
-      awesomeThing.rank = Math.random();
-    });
+    this.$http.get('/resources/data/countryList.json')
+      .then(
+        (response) => {
+          var results = [];
+
+          angular.forEach(response.data, (value, key) => {
+            results.push({
+              code: key,
+              name: value.countryen,
+              rank: value.rank,
+              value: value.countryen.toLowerCase()
+            });
+          });
+
+          deferred.resolve(results)
+        },
+        (response) => deferred.reject(response));
+
+    return deferred.promise;
   }
 
-  showToastr() {
-    this.toastr.info('Fork <a href="https://github.com/Swiip/generator-gulp-angular" target="_blank"><b>generator-gulp-angular</b></a>');
-    this.classAnimation = '';
+  // lowercase filter
+  filterResults(query) {
+    var lowercaseQuery = angular.lowercase(query);
+    return function filterFn(country) {
+      var re = new RegExp(lowercaseQuery, 'gi');
+      return country.value.match(re);
+    }
   }
+
+  //activate($timeout, webDevTec) {
+  //  this.getWebDevTec(webDevTec);
+  //  $timeout(() => {
+  //    this.classAnimation = 'rubberBand';
+  //  }, 4000);
+  //}
+  //
+  //getWebDevTec(webDevTec) {
+  //  this.awesomeThings = webDevTec.getTec();
+  //
+  //  angular.forEach(this.awesomeThings, (awesomeThing) => {
+  //    awesomeThing.rank = Math.random();
+  //  });
+  //}
+
+  //showToastr() {
+  //  this.toastr.info('Fork <a href="https://github.com/Swiip/generator-gulp-angular" target="_blank"><b>generator-gulp-angular</b></a>');
+  //  this.classAnimation = '';
+  //}
 }
