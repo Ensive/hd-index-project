@@ -11,8 +11,14 @@ export class MainController {
     //this.classAnimation = '';
     //this.creationDate = 1460319508235;
     this.toastr = toastr;
+
+    // country data
+    this.isLoading = false;
     this.isReadyToCount = false;
+    this.isCounted = false;
+
     this.currentProfile = null;
+    this.hdiIndex = null;
 
     //this.activate($timeout, webDevTec);
   }
@@ -54,6 +60,9 @@ export class MainController {
 
   loadCountryProfile(country) {
     this.isReadyToCount = false;
+    this.isCounted = false;
+    this.hdiIndex = null;
+
     var loadCountry = this.countryService.loadCountryProfile(country);
 
     if (loadCountry) {
@@ -61,12 +70,32 @@ export class MainController {
         .then((countryProfile) => {
           this.isReadyToCount = true;
           this.currentProfile = angular.copy(countryProfile);
+
+          // describe data
+          // @todo: implement
+          //this.countryService.getCountryInfo(countryProfile);
+          this.LE = countryProfile.HDI_Life_expectancy_at_birth;
+          this.MYS = countryProfile.HDI_Mean_years_of_schooling_of_adults;
+          this.EYS = countryProfile.HDI_Expected_Years_of_Schooling_of_children;
+          this.GNIpc = countryProfile.HDI_GNI_per_capita_in_PPP_terms_constant_2011_international_;
+
         });
     }
   }
 
   getHDI() {
+    this.isLoading = true;
+    this.isCounted = true;
 
+    this.$timeout(() => {
+      this.isLoading = false;
+      this.hdiIndex = this.countryService.getHDI(this.currentProfile);
+
+      if (isNaN(this.hdiIndex)) {
+        this.isCounted = false;
+      }
+
+    }, 1500);
   }
 
   // lowercase filter
