@@ -1,5 +1,12 @@
+@mixin media($breakpoint) {
+  @media only screen and (min-width: $breakpoint) {
+    @content;
+  }
+}
+
 @mixin container {
   margin: 0 auto;
   max-width: 1200px;
-  padding: 0 20px;
+  padding: 0 10px;
+  @include media($medium-screen-up) { padding: 0 20px; }
 }
