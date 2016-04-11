@@ -1,74 +1,67 @@
 <div layout="column" layout-fill class="container">
 
-  <!--<md-content>-->
-
-    <section class="panel">
-      <h1 class="panel-title">Міжнародні показники людського розвитку</h1>
-      <p class="panel-subtitle">
-        Досліджуйте дані людського розвитку з усього світу за допомогою інструментів нижче. Дані, представлені тут, були використані при підготовці Доповіді про розвиток людини 2015 року, випущений 14 грудня 2015 року.
-      </p>
-      <md-button class="md-raised md-warn panel-button hd-button">
-        Запит
-      </md-button>
-      <!--<p>-->
-        <!--With ♥ thanks to the contributions of<acme-malarkey extra-values="['Yeoman', 'Gulp', 'Angular']"></acme-malarkey>-->
-      <!--</p>-->
-      <div class="panel-bar">
-        <p class="panel-bar-text">На даному ресурсі ви можете переглянути детальну інформацію про ІРЛП будь-якої країни</p>
-      </div>
-      <div class="panel-mask"></div>
-    </section>
-
-    <md-content layout-padding layout="column" class="form-container">
-      <form ng-submit="$event.preventDefault()">
-        <p>Введіть назву або код країни (англійською мовою):</p>
-        <md-autocomplete
-          md-selected-item="main.selectedItem"
-          md-search-text="main.searchText"
-          md-items="country in main.querySearch(main.searchText)"
-          md-item-text="country.name"
-          md-min-length="0"
-          placeholder="Виберіть країну"
-          md-menu-class="hd-custom-template">
-
-          <md-item-template>
-            <span class="country-title">
-              <md-icon class="country-icon material-icons md-18">languages</md-icon>
-              <span> {{ country.name }}</span>
-            </span>
-            <span class="country-metadata">
-              <span class="country-code">
-                <b>Код:</b>
-                {{ country.code }}
-              </span>
-              <span class="country-rank">
-                <b>Місце в світі:</b>
-                {{ country.rank }}
-              </span>
-            </span>
-          </md-item-template>
-
-        </md-autocomplete>
-      </form>
-    </md-content>
-
-    <!--<li ng-repeat="item in main.querySearch(null)">-->
-      <!--{{ item }}-->
-    <!--</li>-->
-
-    <div class="techs" layout-align="center">
-      <md-card ng-repeat="awesomeThing in main.awesomeThings | orderBy:'rank'">
-        <md-card-content>
-          <!-- @todo: http://hdr.undp.org/sites/default/files/Country-Profiles/ARG.GIF -->
-          <!--<img class="pull-right" ng-src="assets/images/{{ awesomeThing.logo }}" alt="{{ awesomeThing.title }}">-->
-          <!--<h3 class="md-title">{{ awesomeThing.title }}</h3>-->
-          <!--<p>{{ awesomeThing.description }}</p>-->
-        </md-card-content>
-        <div class="md-action-buttons">
-          <md-button ng-href="{{ awesomeThing.url }}">Website</md-button>
-        </div>
-      </md-card>
+  <section class="panel">
+    <h1 class="panel-title">Міжнародні показники людського розвитку</h1>
+    <p class="panel-subtitle">
+      Досліджуйте дані людського розвитку з усього світу за допомогою інструментів нижче. Дані, представлені тут, були використані при підготовці Доповіді про розвиток людини 2015 року, випущений 14 грудня 2015 року.
+    </p>
+    <md-button class="md-raised md-warn panel-button hd-button">
+      Запит
+    </md-button>
+    <!--<p>-->
+      <!--With ♥ thanks to the contributions of<acme-malarkey extra-values="['Yeoman', 'Gulp', 'Angular']"></acme-malarkey>-->
+    <!--</p>-->
+    <div class="panel-bar">
+      <p class="panel-bar-text">На даному ресурсі ви можете переглянути детальну інформацію про ІРЛП будь-якої країни</p>
     </div>
-  <!--</md-content>-->
+    <div class="panel-mask"></div>
+  </section>
+
+  <md-content layout-padding layout="column" class="form-container">
+    <form ng-submit="$event.preventDefault()">
+      <p>Введіть назву або код країни (англійською мовою):</p>
+      <md-autocomplete
+        md-selected-item="main.selectedItem"
+        md-search-text="main.searchText"
+        md-items="country in main.querySearch(main.searchText)"
+        md-item-text="country.name"
+        md-min-length="0"
+        placeholder="Виберіть країну"
+        md-menu-class="hd-custom-template">
+
+        <md-item-template>
+          <span class="country-title">
+            <md-icon class="country-icon material-icons md-18">languages</md-icon>
+            <span> {{ country.name }}</span>
+          </span>
+          <span class="country-metadata">
+            <span class="country-code">
+              <b>Код:</b>
+              {{ country.code }}
+            </span>
+            <span class="country-rank">
+              <b>Місце в світі:</b>
+              {{ country.rank }}
+            </span>
+          </span>
+        </md-item-template>
+
+      </md-autocomplete>
+    </form>
+  </md-content>
+
+  <div class="techs" layout-align="center">
+    <md-card ng-repeat="awesomeThing in main.awesomeThings | orderBy:'rank'">
+      <md-card-content>
+        <!-- @todo: http://hdr.undp.org/sites/default/files/Country-Profiles/ARG.GIF -->
+        <!--<img class="pull-right" ng-src="assets/images/{{ awesomeThing.logo }}" alt="{{ awesomeThing.title }}">-->
+        <!--<h3 class="md-title">{{ awesomeThing.title }}</h3>-->
+        <!--<p>{{ awesomeThing.description }}</p>-->
+      </md-card-content>
+      <div class="md-action-buttons">
+        <md-button ng-href="{{ awesomeThing.url }}">Website</md-button>
+      </div>
+    </md-card>
+  </div>
 
 </div>
