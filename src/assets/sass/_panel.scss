@@ -16,6 +16,18 @@
     font-size: 2.5em;
   }
 
+  .panel-subtitle {
+    text-shadow: 0 0 5px rgba(6, 6, 6, 0.63);
+    max-width: 750px;
+    margin: 20px auto 0;
+    font-size: 17px;
+  }
+
+  .panel-button {
+    width: 100px;
+    margin: 40px 0 0;
+  }
+
   .panel-bar {
     position: absolute;
     right: 0;
@@ -28,7 +40,9 @@
   }
 
     .panel-bar-text {
-      text-shadow: 0 0 5px rgba(6, 6, 6, 0.63);
+      margin: 20px 0 0 0;
+      color: #405568;
+      font-size: 19px;
     }
 
   .panel-mask {
@@ -40,5 +54,5 @@
     z-index: -1;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.3);
   }
