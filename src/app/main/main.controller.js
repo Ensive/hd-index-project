@@ -1,5 +1,5 @@
 export class MainController {
-  constructor($timeout, $q, toastr, $http) {
+  constructor($timeout, $q, toastr, $http, countryService) {
     'ngInject';
 
     this.$http = $http;
@@ -10,6 +10,7 @@ export class MainController {
     //this.classAnimation = '';
     //this.creationDate = 1460319508235;
     this.toastr = toastr;
+    this.loadCountryProfile = countryService.loadCountryProfile;
 
     //this.activate($timeout, webDevTec);
   }

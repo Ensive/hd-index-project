@@ -8,6 +8,9 @@ import { WebDevTecService } from '../app/components/webDevTec/webDevTec.service'
 import { NavbarDirective } from '../app/components/navbar/navbar.directive';
 //import { MalarkeyDirective } from '../app/components/malarkey/malarkey.directive';
 
+// services
+import { CountryService } from '../app/components/country/country.service';
+
 // removed 'ngTouch'
 angular.module('hdIndexProject', ['ngAnimate', 'ngCookies', 'ngSanitize', 'ngMessages', 'ngAria', 'ui.router', 'ngMaterial', 'toastr'])
   .constant('malarkey', malarkey)
@@ -16,6 +19,7 @@ angular.module('hdIndexProject', ['ngAnimate', 'ngCookies', 'ngSanitize', 'ngMes
   .config(routerConfig)
   .run(runBlock)
   .service('webDevTec', WebDevTecService)
+  .service('countryService', CountryService)
   .controller('MainController', MainController)
   .directive('acmeNavbar', NavbarDirective);
   //.directive('acmeMalarkey', MalarkeyDirective);

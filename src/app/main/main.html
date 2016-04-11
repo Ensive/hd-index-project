@@ -22,6 +22,7 @@
       <p>Введіть назву або код країни (англійською мовою):</p>
       <md-autocomplete
         md-selected-item="main.selectedItem"
+        md-selected-item-change="main.loadCountryProfile(main.selectedItem)"
         md-search-text="main.searchText"
         md-items="country in main.querySearch(main.searchText)"
         md-item-text="country.name"
@@ -32,7 +33,7 @@
         <md-item-template>
           <span class="country-title">
             <md-icon class="country-icon material-icons md-18">languages</md-icon>
-            <span> {{ country.name }}</span>
+            <span md-highlight-text="main.searchText" md-highlight-flags="^i"> {{ country.name }}</span>
           </span>
           <span class="country-metadata">
             <span class="country-code">
@@ -47,6 +48,12 @@
         </md-item-template>
 
       </md-autocomplete>
+    </form>
+  </md-content>
+
+  <md-content class="form-container">
+    <form ng-submit="$event.preventDefault()" novalidate>
+
     </form>
   </md-content>
 
