@@ -27,20 +27,31 @@ export class CountryService {
         (response) => response);
   }
 
-  getHDI() {
+  getHDI(profile) {
+    // fetch data
+    var LE = profile.HDI_Life_expectancy_at_birth;
+    var MYS = profile.HDI_Mean_years_of_schooling_of_adults;
+    var EYS = profile.HDI_Expected_Years_of_Schooling_of_children;
+    var GNIpc = profile.HDI_GNI_per_capita_in_PPP_terms_constant_2011_international_;
 
+    // count index
+    return Math.cbrt(
+      this.countLifeExpectancyIndex(LE) *
+      this.countEducationIndex(MYS, EYS) *
+      this.countIncomeIndex(GNIpc));
   }
 
-  countLifeExpectancyIndex() {
-
+  countLifeExpectancyIndex(le) {
+    return (le - 20) / (85 - 20);
   }
 
-  countEducationIndex() {
-
+  countEducationIndex(MYS, EYS) {
+    return (MYS / 15 + EYS / 18) / 2;
   }
 
-  countIncomeIndex() {
-
+  countIncomeIndex(GNIpc) {
+    var ln = Math.log;
+    return ( ln(GNIpc) - ln(100) ) / ( ln(75000) - ln(100) );
   }
 
 }
