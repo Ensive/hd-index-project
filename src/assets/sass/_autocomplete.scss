@@ -1,0 +1,26 @@
+.hd-custom-template li {
+  padding-top: 4px;
+  padding-bottom: 8px;
+  height: auto;
+  border-bottom: 1px solid #ccc;
+}
+
+.country-title {
+  font-size: 18px;
+  line-height: 1;
+}
+
+.country-metadata {
+  display: block;
+  line-height: 1;
+}
+
+  .country-icon {
+    position: relative;
+    top: -2px;
+  }
+
+  .country-code,
+  .country-rank {
+    font-size: 12px;
+  }
