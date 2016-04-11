@@ -5,12 +5,14 @@ export class MainController {
     this.$http = $http;
     this.$q = $q;
     this.$timeout = $timeout;
+    this.countryService = countryService;
 
     //this.awesomeThings = [];
     //this.classAnimation = '';
     //this.creationDate = 1460319508235;
     this.toastr = toastr;
-    this.loadCountryProfile = countryService.loadCountryProfile;
+    this.isReadyToCount = false;
+    this.currentProfile = null;
 
     //this.activate($timeout, webDevTec);
   }
@@ -24,6 +26,7 @@ export class MainController {
       });
   }
 
+  // @todo: move to the service
   loadCountriesList() {
     var deferred = this.$q.defer();
 
@@ -43,9 +46,27 @@ export class MainController {
 
           deferred.resolve(results)
         },
+        // @todo: error message
         (response) => deferred.reject(response));
 
     return deferred.promise;
+  }
+
+  loadCountryProfile(country) {
+    this.isReadyToCount = false;
+    var loadCountry = this.countryService.loadCountryProfile(country);
+
+    if (loadCountry) {
+      loadCountry
+        .then((countryProfile) => {
+          this.isReadyToCount = true;
+          this.currentProfile = angular.copy(countryProfile);
+        });
+    }
+  }
+
+  getHDI() {
+
   }
 
   // lowercase filter
